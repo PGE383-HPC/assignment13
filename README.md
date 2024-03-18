@@ -2,6 +2,7 @@
 
 ![Assignment 13](https://github.com/PGE383-HPC/assignment13-solution/actions/workflows/main.yml/badge.svg)
 
+
 In [Homework Assignment 9](https://github.com/PGE383-HPC/assignment9) we wrote a program that would process a data file, converting the raw data to true stress and strain, and compute the toughness.  In this assignment, we will make the integration (i.e. toughness computation) a parallel task.
 
 Your assignment is to complete the Julia module [assignment13.jl](src/assignment13.jl).  Specifically, you must complete the functions `partition_data(strain::AbstractArray, stress::AbstractArray, comm::MPI.Comm)` and `compute_toughness_parallel(filename::String, comm::MPI.Comm)`. 

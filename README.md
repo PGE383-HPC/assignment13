@@ -1,6 +1,6 @@
 # Homework Assignment 13
 
-![Assignment 13](https://github.com/PGE383-HPC/assignment13-solution/actions/workflows/main.yml/badge.svg)
+![Assignment 13](https://github.com/PGE383-HPC/assignment13/actions/workflows/main.yml/badge.svg)
 
 
 In [Homework Assignment 9](https://github.com/PGE383-HPC/assignment9) we wrote a program that would process a data file, converting the raw data to true stress and strain, and compute the toughness.  In this assignment, we will make the integration (i.e. toughness computation) a parallel task.
